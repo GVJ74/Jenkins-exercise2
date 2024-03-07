@@ -45,13 +45,9 @@ pipeline {
                 sh 'ls -l /tmp'
 
             }
-        stage ('run script') {
-            steps {
-              sh 'chmod +x ./run.sh'
-              sh './run.sh'
+
         }
 
     }
 
-}
 }
